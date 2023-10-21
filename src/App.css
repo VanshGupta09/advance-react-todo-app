@@ -127,7 +127,7 @@ button:focus-visible {
   transform: translate(0%, -50%);
   font-size: 1rem;
   cursor: pointer;
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .list li {
