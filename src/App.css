@@ -79,7 +79,7 @@ button:focus-visible {
   max-width: 350px;
   width: 100%;
   padding: 20px;
-  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
   margin: 0 auto;
 }
 
@@ -133,7 +133,7 @@ button:focus-visible {
 .list li {
   list-style: none;
   text-align: justify;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   padding: .25rem .5rem;
   margin-block: .5rem;
 }
