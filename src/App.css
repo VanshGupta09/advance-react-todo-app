@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  min-width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.ai-c {
+  align-items: center;
+
+}
+
+.txt-c {
+  text-align: center;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.main {
+  max-width: 350px;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 50px;
+  width: 100%;
+  margin-right: 1.0rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.input input {
+  width: 100%;
+  margin-block: 1rem;
+  padding: .5rem 2.50rem .5rem .8rem;
+  font-size: 16px;
+}
+
+.input {
+  position: relative;
+}
+
+.plus-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.editable-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  font-size: 1rem;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.list li {
+  list-style: none;
+  text-align: justify;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  padding: .25rem .5rem;
+  margin-block: .5rem;
+}
+
+.main .btn {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  margin: 1rem auto;
+  display: block;
+  transition: .5s ease-in-out;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.btn .span-1 {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  transition: .5 ease-in-out;
+}
+
+.btn .span-2 {
+  font-size: 0rem;
+  letter-spacing: 0px;
+  transition: .5 ease-in-out;
+}
+
+.btn:hover {
+  border-color: rgb(255, 255, 255);
+}
+
+.btn:hover .span-2 {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.btn:hover .span-1 {
+  font-size: 0rem;
+  letter-spacing: 0px;
+}
+
+.del-icon {
+  transition: .3s ease-in-out;
+}
+
+.del-icon:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(36, 36, 36);
+}
+
+.edit-icon {
+  /* color: rgb(255, 255, 255); */
+  transition: .3s ease-in-out;
+  margin-inline: 0.3rem;
+  filter: invert(1);
+}
+
+.edit-icon:hover {
+  background-color: rgb(255, 255, 255);
+  filter: invert(0);
+}
